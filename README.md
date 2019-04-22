@@ -1,7 +1,7 @@
-# mac-user669's Repo
-This is my repo!
+# mac-user669's Website
+This is my Website!
 
-[Add to Cydia](https://cydia.saurik.com/api/share#?source=https://mac-user669.github.io)
+[Add my repo to Cydia](https://cydia.saurik.com/api/share#?source=https://mac-user669.github.io)
 
 [View Website](https://mac-user669.github.io)
 

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>How To Create A Cydia Repo With GitHub</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://mac-user669.github.io">mac-user669.github.io</a>
+    </div>
+    <ul class="nav navbar-nav">
+<!--      <li class="active"><a href="https://mac-user669.github.io" >Home</a></li> -->
+    </ul>
+  </div>
+</nav>
+
+
+  <div class="container">
+  	<h2><img src="CydiaIcon.png" class="img-rounded"?></h2>
+    <h2 class="text-default">How To Create A Cydia Repo With GitHub</h2>
+  </div>
+
+  <div class="container">
+    <div class="panel panel-default">
+
+
+<div class="container">
+  <h3>Getting Started</h3>
+  <p>What You Need:</p>
+  <dl>
+    <dt>Computer</dt>
+    <dd>- I am using a Mac, but this should work on any other OS</dd>
+    <dt>.deb</dt>
+    <dd>- This is the compiled package of the tweak you want to upload</dd>
+    <dt>iOS Device To Test Things Out On</dt>
+    <dd>- This is optional</dd>
+  </dl>
+</div>
+
+<div class="container">
+  <h3 class="text-default">1. Starting Out</h3>
+  <p>First, go to Github.com and create a new repository. If you want it to be yourusername.github.io, name the repository yourusername. </p>
+  <div class="panel panel-default">
+  <div class="panel-body">Example: For me, it would be called mac-user669 and I would add mac-user669.github.io to Cydia.</div>
+  </div>
+  <p>If you would like it to be yourusername.github.io/repo (or whatever else), name the repository repo or whatever you decide to append to the end. </p>
+  <div class="panel panel-default">
+  <div class="panel-body">Example: For me, it would be called repo and I would add mac-user669.github.io/repo to Cydia.</div>
+</div>
+<p>If you wish, you can add a README, but you are welcome to copy the one from this tutorial. Download a tutorial repo to you computer with <code>cd Desktop</code> (It doesn't have to be on the Desktop, but to make it easy, it's going to be there) and then<code>git clone https://github.com/supermamon/Reposi3.git</code>. Clone your newly created repo by copying the link given when you click "Clone or Download". Open the newly created folders, and copy
+the contents of Reposi3 into your repo. Open up the Release file, and change anything that says Reposi3 to your username/screen name. Do the same in index.html. If you're on a Mac, you should open this with Atom, which is a really fancy text editor, among other things. Delete the two sample packages from the <kbd>debs</kbd> folder, and input your own. Rename <kbd>depictions/com.supermamon.newpackage</kbd> to the Bundle ID of your package, and modify changelog.xml, info.xml, and add your screenshots to <kbd>screenshots</kbd>. Once you're done modifying and adding your stuff, open Terminal, and run these commands: <code>cd Desktop/NameOfYourRepo</code> <code>dpkg-scanpackages -m . /dev/null >Packages && bzip2 -zk Packages</code> <code>git add -A</code> <code>git commit -m "Whatever you changed"</code> <code>git push origin master</code>
+ </p>
+<h3 class="text-default">2. Enabling GitHub Pages</h3>
+<p>Open your new repo at github.com, and go into the settings. Scroll down to the section about GitHub Pages, and select the master branch. If everything worked, it should have said "Your site is published at" and then a URL. Open that URL, and make sure everything displays correctly. Finally, add it to Cydia! You're done!</p>
+
+
+  <h3>3. Troubleshooting</h3>
+  <p>Sooner or later, something will go wrong. Check here to see how to fix it! I'll add more over time.</p>
+  <dl>
+    <dt>I'm getting a Hash Mismatch error in Cydia</dt>
+    <dd>Rerun the last set of commands from the second part.</dd>
+
+  </dl>
+
+
+</div>
+
+
+</body>
+</html>

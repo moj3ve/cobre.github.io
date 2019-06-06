@@ -9,15 +9,37 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <style>
+
+
   body {
     background-color: #ffffff
   }
 
-  .btn-outline-gray {
-    border-radius: 1rem;
-  	border: 3px solid #ffffff;
-  	color: #000000;
+
+    /* Dark mode implementation */
+  @media (prefers-color-scheme: dark) {
+
+    body {
+      color: #ffffff;
+      background-color: #232224;
+    }
+
+    hr { display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px
+      solid #ffffff;
+      margin: 1em 0;
+      padding: 0;
+     }
+
+     .btn-outline-dark {
+      border-color: #ffffff;
+      color: #ffffff;
+     }
+
   }
+
 
   .card {
     background-color: #ffffff;

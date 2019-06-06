@@ -16,18 +16,44 @@
     background-color: #ffffff
   }
 
-  .btn-outline-gray {
-    border-radius: 1rem;
-  	border: 3px solid #ffffff;
-  	color: #000000;
+    .card {
+      background-color: #ffffff;
+      border: 3px solid #ffffff;
+      border-radius: 1rem;
+      color: #000000
+    }
+
+    /* Dark mode implementation */
+  @media (prefers-color-scheme: dark) {
+
+    body {
+      color: #ffffff;
+      background-color: #232224;
+    }
+
+    hr { display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px
+      solid #ffffff;
+      margin: 1em 0;
+      padding: 0;
+     }
+
+     .btn-outline-dark {
+      border-color: #ffffff;
+      color: #ffffff;
+     }
+
+       .card {
+         background-color: #232224;
+         border: 3px solid #ffffff;
+         border-radius: 1rem;
+         color: #ffffff
+       }
+
   }
 
-  .card {
-    background-color: #ffffff;
-    border: 3px solid #ffffff;
-    border-radius: 1rem;
-    color: #000000
-  }
 
   img {
    border-radius: 1rem;

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>How To Make Your Website in Dark Mode</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <style>
+  body {
+    background-color: #ffffff
+  }
+
+
+    .card {
+      background-color: #ffffff;
+      border: 3px solid #ffffff;
+      border-radius: 1rem;
+      color: #000000
+    }
+
+    /* Dark mode implementation */
+  @media (prefers-color-scheme: dark) {
+
+    body {
+      color: #ffffff;
+      background-color: #232224;
+    }
+
+    hr { display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px
+      solid #ffffff;
+      margin: 1em 0;
+      padding: 0;
+     }
+
+     .btn-outline-dark {
+      border-color: #ffffff;
+      color: #ffffff;
+     }
+
+       .card {
+         background-color: #232224;
+         border: 3px solid #ffffff;
+         border-radius: 1rem;
+         color: #ffffff
+       }
+
+  }
+
+
+  img {
+   border-radius: 1rem;
+   display: block;
+   max-width: 100%;
+   height: auto;
+  }
+
+  .badge {
+    background-color: #EBEBF1;
+    color: #272c31
+  }
+
+  </style>
+
+<div class="container">
+
+<div class="container">
+  <h1><br>How To Integrate MacOS Mojave's Dark Mode Into Your Website</h1>
+  <hr/>
+  <p>In MacOS 10.14.4, Apple added dark mode support for websites. It's pretty easy to enable for your website. All you have
+  to do is add a couple lines of css:</p>
+
+  <code>
+    @media (prefers-color-scheme: dark) {<br>
+<br>
+      body {<br>
+        color: #ffffff;<br>
+        background-color: #232224;<br>
+      }<br>
+<br>
+    }<br>
+  </code>
+
+<p> Of course you can change the colors, and you should probably add more css to it. But there you go! You should now be able to change from dark mode to light mode and have your website change with it!</p>
+
+  </div>
+</div>
+
+</body>
+</html>

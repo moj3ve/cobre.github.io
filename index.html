@@ -15,15 +15,20 @@
     background-color: #ffffff
   }
 
+  .btn {
+    border-radius: 15px;
+  }
+
   /* Dark mode implementation */
 @media (prefers-color-scheme: dark) {
 
   body {
     color: #ffffff;
-    background-color: #232224;
+    background-color: #1F2022;
   }
 
-  hr { display: block;
+  hr {
+    display: block;
     height: 1px;
     border: 0;
     border-top: 1px
@@ -38,65 +43,36 @@
    }
 
 }
-
-  .card {
-    background-color: #ffffff;
-    border: 3px solid #ffffff;
-    border-radius: 1rem;
-    color: #000000
-  }
-
-  img {
-   border-radius: 1rem;
-   display: block;
-   max-width: 100%;
-   height: auto;
-  }
-
-  .badge {
-    background-color: #EBEBF1;
-    color: #272c31
-  }
-
   </style>
 
 </head>
 <body>
 
 <div class="container">
-  <h1><br>mac-user669's website</h1>
+  <h2 class="pt-5">mac-user669's website</h2>
   <hr/>
 
   <p>This is my website. I have some tutorials and stuff here.</p>
   <a class="btn btn-outline-dark" href="https://github.com/mac-user669/mac-user669.github.io">View on GitHub</a>
   <a class="btn btn-outline-dark" href="https://mac-user669.github.io/repo">APT Repo</a>
 
-    <br>
-    <br>
-    <br>
-    <h1>Apps</h1>
+    <h2 class="pt-5">Apps</h2>
     <hr/>
 
-      <h2>GitMac</h2>
+      <h3>GitMac</h3>
       <p>GitHub.com in an app! No more having to open Safari and find your bookmark, just open up the app!</p>
       <a class="btn btn-outline-dark" href="https://mac-user669.github.io/apps/GitMac">Read More</a>
 
-
-  <br>
-  <br>
-  <br>
-  <h1>Tutorials</h1>
+  <h2 class="pt-5">Tutorials</h2>
   <hr/>
 
-    <h2>Create a Cydia repo with GitHub</h2>
+    <h3>Create a Cydia repo with GitHub</h3>
     <p>Want to learn how to create a Cydia repository? click here.</p>
     <a class="btn btn-outline-dark" href="https://mac-user669.github.io/tutorials/GitCyRepo/">Read More</a>
 
-  </br>
-</br>
-      <h2>How to integrate MacOS Mojave's Dark Mode Into Your Website</h2>
+      <h3 class="pt-5">How to integrate MacOS Mojave's Dark Mode Into Your Website</h3>
       <p>Seen websites that change from dark mode to light mode based on what your computer is set to? Here's how to do it.</p>
-      <a class="btn btn-outline-dark" href="https://mac-user669.github.io/tutorials/DarkModeWeb/">Read More</a>
+      <a class="btn btn-outline-dark mb-5" href="https://mac-user669.github.io/tutorials/DarkModeWeb/">Read More</a>
 </div>
 
 </body>

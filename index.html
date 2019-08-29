@@ -1,79 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>mac-user669's website</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-  <style>
-
-  body {
-    background-color: #ffffff
-  }
-
-  .btn {
-    border-radius: 15px;
-  }
-
-  /* Dark mode implementation */
-@media (prefers-color-scheme: dark) {
-
-  body {
-    color: #ffffff;
-    background-color: #1F2022;
-  }
-
-  hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px
-    solid #ffffff;
-    margin: 1em 0;
-    padding: 0;
-   }
-
-   .btn-outline-dark {
-    border-color: #ffffff;
-    color: #ffffff;
-   }
-
-}
-  </style>
-
-</head>
+<html>
+    <head>
+        <title>mac-user669's repo</title>
+        <link rel="icon" href="assets/favicon.ico" class="next-head" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="assets/homepage/stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+      </head>
 <body>
 
-<div class="container">
-  <h2 class="pt-5">mac-user669's website</h2>
-  <hr/>
+<div id="navbarContainer">
+    <div id="navbar">
+          <a href="https://mac-user669.github.io/"><h1 id="title">mac-user669</h1></a>
 
-  <p>This is my website. I have some tutorials and stuff here.</p>
-  <a class="btn btn-outline-dark" href="https://github.com/mac-user669/mac-user669.github.io">View on GitHub</a>
-  <a class="btn btn-outline-dark" href="https://mac-user669.github.io/repo">APT Repo</a>
+        <div class="navIconContainer">
+          <a href="https://twitter.com/mac_user669">
+            <div class="navButton" style="background: linear-gradient(to right, #55ACEF , #0A76E7)">
+              <img src="assets/page-icons/twitter.png" class="navButtonIcon" align="left">Twitter
+            </div></a>
+      
+          <a href="https://github.com/mac-user669">
+            <div class="navButton" style="background-color: #78797A">
+              <img src="assets/page-icons/github.png" class="navButtonIcon" align="left">Github
+            </div></a>
 
-    <h2 class="pt-5">Apps</h2>
-    <hr/>
+            <a href="https://www.reddit.com/user/mac-user669">
+              <div class="navButton" style="background: linear-gradient(to right, #FF4C02 , #ED0A21)">
+                <img src="assets/page-icons/reddit.png" class="navButtonIcon" align="left">Reddit
+              </div></a>
 
-      <h3>GitMac</h3>
-      <p>GitHub.com in an app! No more having to open Safari and find your bookmark, just open up the app!</p>
-      <a class="btn btn-outline-dark" href="https://mac-user669.github.io/apps/GitMac">Read More</a>
+          <a href="mailto:cooper@cooperhull.com">
+            <div class="navButton" style="background: linear-gradient(to right, #2A8FFA , #42BCFA)">
+              <img src="assets/page-icons/mail.png" class="navButtonIcon" align="left">Email Me
+            </div></a>
 
-  <h2 class="pt-5">Tutorials</h2>
-  <hr/>
+        </div>
+      </div>
+  </div>
 
-    <h3>Create a Cydia repo with GitHub</h3>
-    <p>Want to learn how to create a Cydia repository? click here.</p>
-    <a class="btn btn-outline-dark" href="https://mac-user669.github.io/tutorials/GitCyRepo/">Read More</a>
+  <div id="topBanner">
+    <img src="assets/mac-user669.png">
+    <h1>mac-user669</h1>
+    <h2>iOS Themer and Web Developer</h2>
 
-      <h3 class="pt-5">How to integrate MacOS Mojave's Dark Mode Into Your Website</h3>
-      <p>Seen websites that change from dark mode to light mode based on what your computer is set to? Here's how to do it.</p>
-      <a class="btn btn-outline-dark mb-5" href="https://mac-user669.github.io/tutorials/DarkModeWeb/">Read More</a>
-</div>
+    <h4>Add https://mac-user669.github.io/repo to your package manager</h2>
+
+       <a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://mac-user669.github.io/repo">
+      <div class="navButton" style="background: linear-gradient(to right, #CB8A74 , #8D5A40)">
+       <img src="assets/page-icons/cydia.png" class="navButtonIcon" align="left">Add To Cydia
+      </div></a>
+
+      <a href="sileo://source/https://mac-user669.github.io/repo">
+      <div class="navButton" style="background: linear-gradient(to right, #2EE3CE , #09A7A8)">
+       <img src="assets/page-icons/sileo.png" class="navButtonIcon" align="left">Add To Sileo
+      </div></a>
+
+
+  </div>
 
 </body>
+<script src="assets/homepage/javascript.js"></script>
 </html>

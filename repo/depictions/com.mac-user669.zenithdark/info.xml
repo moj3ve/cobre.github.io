@@ -1,0 +1,61 @@
+<package>
+	<id>com.mac-user669.zenithdark</id>
+	<name>ZenithDark</name>
+	<version>1.7</version>
+
+	<compatibility>
+		<firmware>
+			<miniOS>12.0</miniOS>
+		</firmware>
+	</compatibility>
+
+	<dependencies>
+		<package>Zenith</package>
+		<package>Cephei</package>
+		<package>libCSColorPicker</package>
+	</dependencies>
+
+	<shortDescription>Dark Tabs For Zenith</shortDescription>
+
+	<descriptionlist>
+		<description>Recolors the pull tabs on Muirey03's Zenith to a dark blur!</description>
+
+		<description>I had the idea, and @iKilledAppl3 reached out to me about helping me make this. He ended up writing basically all of the code, so shoutout to him!</description>
+
+		<description>I'm working on adding more features, and if you have any requests, let me know!</description>
+
+
+	</descriptionlist>
+
+	<screenshots>
+		<screenshot>
+			<image>Dark.png</image>
+		</screenshot>
+		<screenshot>
+			<image>Light.png</image>
+		</screenshot>	
+		<screenshot>
+			<image>Prefs.png</image>
+		</screenshot>
+	</screenshots>
+
+	<changelog>
+		<change>iOS 12 support!</change>
+		<change>Note: Custom Light Mode color won't affect anything on iOS 12</change>
+	</changelog>
+
+	<links>
+		<link>
+			<name>Source Code</name>
+			<url>https://github.com/mac-user669/ZenithDark</url>
+			<iconclass>fa fa-github</iconclass>
+		</link>
+	</links>
+	<links>
+		<link>
+			<name>Email Me</name>
+			<url>mailto:cooper@cooperhull.com</url>
+			<iconclass>fa fa-envelope</iconclass>
+		</link>
+	</links>
+</package>

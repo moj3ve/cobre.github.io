@@ -1,6 +1,3 @@
-# mac-user669's repo
+# Cobre's repo
 
-A place to download all of mac-user669's free tweaks and themes!
-
-
-Based on [Reposi3](https://github.com/supermamon/Reposi3/)
+A place to download all of Cobre's free tweaks and themes!
